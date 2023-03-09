@@ -10,26 +10,26 @@ class Program {
             double x = double.Parse(valores[0], CultureInfo.InvariantCulture);
             double y = double.Parse(valores[1], CultureInfo.InvariantCulture);
 
-            if (               ) {
+            if (x == 0.0 && y == 0.0) {
                 Console.WriteLine("Origem");
             }
-            else if (x ==    ) {
+            else if (x == 0.0) {
                 Console.WriteLine("Eixo Y");
             }
-            else if (y ==     ) {
+            else if (y == 0.0) {
                 Console.WriteLine("Eixo X");
             }
-            else if (x >    && y >     ) {
-                Console.WriteLine(       );
+            else if (x > 0.0 && y > 0.0) {
+                Console.WriteLine("Q1");
             }
             else if (x < 0.0 && y > 0.0) {
-                Console.WriteLine(      );
+                Console.WriteLine("Q2");
             }
             else if (x < 0.0 && y < 0.0) {
-                Console.WriteLine(      );
+                Console.WriteLine("Q3");
             }
             else {
-                Console.WriteLine("     ");
+                Console.WriteLine("Q4");
             }
 
     }
